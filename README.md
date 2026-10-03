@@ -2,6 +2,8 @@
 
 Predicts whether a loan applicant is a credit risk using the UCI German Credit dataset.
 
+🔗 **Live Demo:** [https://credit-risk-prediction-ah3xrownqzkfj6crdpdz9c.streamlit.app/](https://credit-risk-prediction-ah3xrownqzkfj6crdpdz9c.streamlit.app/)
+
 ## Objective
 Binary classification: good credit vs. bad credit risk.
 
@@ -19,5 +21,11 @@ Binary classification: good credit vs. bad credit risk.
 ## Key Risk Drivers
 Credit amount, loan duration, age, and checking account status were the top predictive features.
 
+## Interactive App
+A Streamlit front end lets users input applicant details and get a live prediction, along with a feature-importance breakdown of what drives the model's decisions.
+
 ## Dataset
 [UCI German Credit Data](https://archive.ics.uci.edu/ml/machine-learning-databases/statlog/german/german.data)
+
+## Tech Stack
+Python, pandas, scikit-learn, Streamlit
